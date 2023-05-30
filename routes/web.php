@@ -29,12 +29,36 @@ Route::get('/urunler', function () {
     return view('products');
 });
 
+Route::get('/urunler-ekle', function () {
+    return view('products-add');
+});
+
+Route::get('/urunler-duzenle', function () {
+    return view('products-edit');
+});
+
 Route::get('/malzemeler', function () {
     return view('materials');
 });
 
+Route::get('/malzemeler-ekle', function () {
+    return view('materials-add');
+});
+
+Route::get('/malzemeler-duzenle', function () {
+    return view('materials-edit');
+});
+
 Route::get('/stok', function () {
     return view('stock');
+});
+
+Route::get('/stok-ekle', function () {
+    return view('stock-add');
+});
+
+Route::get('/stok-duzenle', function () {
+    return view('stock-edit');
 });
 
 Route::get('/raporlar', function () {
