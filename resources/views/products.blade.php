@@ -1,7 +1,10 @@
 @extends('layouts.app')
 @section('content')
 <div class="content-wrapper">
-    <h3 class="text-primary">Ürün Grupları</h3>
+    <div class="d-flex justify-content-between mb-2">
+        <h3 class="text-primary">Ürünler</h3>
+        <a class="btn btn-sm btn-primary" href="/urunler-ekle">Yeni ürün Ekle</a>
+    </div>
     <div class="form-group">
         <div class="input-group">
             <input type="text" class="form-control" placeholder="Ürün Ara" aria-label="Ürün Ara">
@@ -15,21 +18,23 @@
             <thead>
                 <tr>
                     <th scope="col">Kategori Adı</th>
-                    <th scope="col">Üst Kategori</th>
+                    <th scope="col">Üst kategori</th>
                     <th scope="col">Sıra</th>
-                    <th scope="col"></th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <th>Ürün Grubu 12</th>
-                    <td></td>
-                    <td>1</td>
+                    <th></th>
+                    <th>1</th>
                     <td>
-                        <button type="button" class="btn btn-sm btn-dark btn-icon-text">
-                            <i class="mdi mdi-brush"></i>
+                        <a type="button" href="/urunler-duzenle" class="btn btn-sm btn-primary btn-icon-text">
+                            <i class="mdi mdi-pencil"></i>
+                        </a>
+                        <button type="button" class="btn btn-sm btn-light btn-icon-text">
+                            <i class="mdi mdi-open-in-new"></i>
                         </button>
-                        <button type="button" class="btn btn-sm btn-danger btn-icon-text">
+                        <button type="button" onclick="confirm('Bu öğeyi silmek istiyor musunuz ?')" class="btn btn-sm btn-danger btn-icon-text">
                             <i class="mdi mdi-delete-forever"></i>
                         </button>
                     </td>
