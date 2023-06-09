@@ -24,14 +24,14 @@
                     <div class="col-md-4 col-sm-12">
                         <div class="form-group">
                             <label for="name" class="input-has-value">Ürün adı</label>
-                            <input type="text" class="form-control" value="Test Ürün" id="name" name="name">
+                            <input type="text" class="form-control" value="Test Ürün" id="name" name="name" placeholder="Ürün adı">
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-12">
                         <div class="form-group">
                             <label for="code" class="input-has-value">Ürün kodu</label>
-                            <input type="text" class="form-control" value="Test123" id="code" readonly="" disabled="">
+                            <input type="text" class="form-control" value="Test123" id="code" readonly="" disabled="" placeholder="Ürün kodu">
                         </div>
                     </div>
 
@@ -64,7 +64,7 @@
                     <div class="col-md-4 col-sm-12">
                         <div class="form-group">
                             <label for="where" class="input-has-value">Nereden temin edildi?</label>
-                            <input type="text" class="form-control" value="test" name="come_from" id="where">
+                            <input type="text" class="form-control" value="test" name="come_from" id="where" placeholder="Nereden temin edildi?">
                         </div>
                     </div>
 
@@ -113,7 +113,7 @@
                     <div class="col-md-4 col-sm-12">
                         <div class="form-group">
                             <label for="cost" class="input-has-value">Maliyet</label>
-                            <input type="text" class="form-control" value="55.00" name="cost" id="cost">
+                            <input type="text" class="form-control" value="55.00" name="cost" id="cost" placeholder="Maliyet">
                         </div>
                     </div>
 
@@ -132,13 +132,13 @@
                     <div class="col-md-4 col-sm-12">
                         <div class="form-group">
                             <label for="stock" class="input-has-value">Stok</label>
-                            <input type="number" class="form-control" value="552" name="qty" id="stock">
+                            <input type="number" class="form-control" value="552" name="qty" id="stock" placeholder="Stok">
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-12">
                         <div class="form-group">
                             <label for="stock" class="input-has-value">Sıra</label>
-                            <input type="number" class="form-control" value="1" name="order" id="order">
+                            <input type="number" class="form-control" value="1" name="order" id="order" placeholder="Sıra">
                         </div>
                     </div>
 

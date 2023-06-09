@@ -28,7 +28,7 @@
                     <div class="col-md-6 mb-4">
                         <label for="edit-dropdown-toggle">Üst kategori</label>
                         <select class="js-example-basic-single w-100">
-                            <option value=""></option>
+                            <option value="">Seçiniz</option>
                             <option value="1">Kategori 1</option>
                             <option value="2">Kategori 2</option>
                             <option value="3">Kategori 3</option>
