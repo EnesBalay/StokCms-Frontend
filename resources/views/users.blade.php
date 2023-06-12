@@ -31,11 +31,7 @@
                         <a href="/kullanicilar/edit" class="btn btn-sm btn-light btn-icon-text">
                             <i class="mdi mdi-pencil"></i>
                         </a>
-<<<<<<< HEAD
-                        <button onclick="changeCount('increase')" class="btn btn-sm btn-danger btn-icon-text">
-=======
-                        <button onclick="deletion()" class="btn btn-sm btn-primary btn-icon-text">
->>>>>>> 2ab5448 (changes)
+                        <button onclick="deletion()" class="btn btn-sm btn-danger btn-icon-text">
                             <i class="mdi mdi-trash-can"></i>
                         </button>
                     </td>
