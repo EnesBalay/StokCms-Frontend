@@ -158,7 +158,7 @@
         <div class="col-md-3 grid-margin stretch-card">
             <div class="card">
                 <div class="card-body text-center d-flex" style="align-content: space-between;flex-wrap: wrap;justify-content: center;">
-                    <div class="icon">
+                    <div class="icon w-100">
                         <i class="mdi mdi-currency-try text-primary" style="font-size: 30px;"></i>
                     </div>
                     <div class="detail">
