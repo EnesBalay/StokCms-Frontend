@@ -4,7 +4,7 @@ function deletion() {
         icon: "warning",
         showCancelButton: true,
         confirmButtonText: "Sil",
-        cancelButtonText: "Iptal",
+        cancelButtonText: "İptal",
     }).then((result) => {
         if (result.isConfirmed) {
             Swal.fire("Silindi!");

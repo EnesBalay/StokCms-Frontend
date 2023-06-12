@@ -35,6 +35,6 @@
             </tbody>
         </table>
     </div>
-    <script src="/js/notification-settings/modal.js"></script>
+    <script src="/js/device-options/material-status/modal.js"></script>
 </div>
 @endsection

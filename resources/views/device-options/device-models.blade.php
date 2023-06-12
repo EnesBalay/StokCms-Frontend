@@ -24,7 +24,7 @@
                         <button onclick="modal('edit')" class="btn btn-sm btn-light btn-icon-text">
                             <i class="mdi mdi-pencil"></i>
                         </button>
-                        <button class="btn btn-sm btn-danger btn-icon-text">
+                        <button onclick="deletion()" class="btn btn-sm btn-danger btn-icon-text">
                             <i class="mdi mdi-trash-can"></i>
                         </button>
                     </td>
@@ -32,7 +32,7 @@
             </tbody>
         </table>
     </div>
-    <script src="/js/device-models/modal.js"></script>
+    <script src="/js/device-options/device-models/modal.js"></script>
     <script src="/js/deletion.js"></script>
 </div>
 @endsection
