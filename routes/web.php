@@ -106,10 +106,18 @@ Route::get('/temin-edilen-firmalar', function () {
 });
 
 Route::get('/bildirim-ayarlari', function () {
-    return view('notification-settings');
+    return view('device-options/notification-settings');
 });
 
 Route::get('/raporlar', function () {
     return view('reports');
+});
+
+Route::get('/kullanicilar', function () {
+    return view('users');
+});
+
+Route::get('/ayarlar', function () {
+    return view('settings');
 });
 
