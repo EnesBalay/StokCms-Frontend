@@ -31,7 +31,7 @@
                             <label for="model">Model</label>
                             <select class="js-example-basic-single w-100" name="model" id="model">
                                 <option>Seçim yapın</option>
-                                <option>Gr3</option>
+                                <option>A1</option>
                             </select>
                         </div>
                     </div>

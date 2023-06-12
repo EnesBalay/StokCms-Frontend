@@ -17,7 +17,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>Gr3</td>
+                    <td>A1</td>
                     <td>Test</td>
                     <td>1</td>
                     <td>

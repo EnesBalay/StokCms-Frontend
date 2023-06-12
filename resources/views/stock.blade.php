@@ -3,7 +3,6 @@
 <div class="content-wrapper">
     <div class="d-flex justify-content-between mb-2">
         <h3 class="text-primary">Stok</h3>
-        <a class="btn btn-sm btn-primary" href="/stok-ekle">Yeni Stok Ekle</a>
     </div>
     <div class="form-group">
         <div class="input-group">
