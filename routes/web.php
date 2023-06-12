@@ -61,6 +61,55 @@ Route::get('/stok-duzenle', function () {
     return view('stock-edit');
 });
 
+Route::get('/kritik-stok', function () {
+    return view('critical-stocks');
+});
+
+Route::get('/cihaz-tanimlama', function () {
+    return view('device-registrations');
+});
+
+Route::get('/malzeme-degisimleri', function () {
+    return view('material-changes');
+});
+
+Route::get('/uretim', function () {
+    return view('productions');
+});
+
+Route::get('/cihaz-markalari', function () {
+    return view('device-options/device-brands');
+});
+
+Route::get('/cihaz-modelleri', function () {
+    return view('device-options/device-models');
+});
+
+Route::get('/cihaz-versiyonlari', function () {
+    return view('device-options/device-versions');
+});
+
+Route::get('/raf-gruplari', function () {
+    return view('device-options/shelf-groups');
+});
+
+Route::get('/raf-numaralari', function () {
+    return view('device-options/shelf-numbers');
+});
+
+Route::get('/malzeme-durumlari', function () {
+    return view('device-options/material-status');
+});
+
+Route::get('/temin-edilen-firmalar', function () {
+    return view('device-options/supplied-companies');
+});
+
+Route::get('/bildirim-ayarlari', function () {
+    return view('notification-settings');
+});
+
 Route::get('/raporlar', function () {
     return view('reports');
 });
+
