@@ -89,6 +89,13 @@ Route::get('/uretim', function () {
     return view('productions');
 });
 
+Route::get('/uretim/olustur', function () {
+    return view('productions-add');
+});
+Route::get('/uretim/duzenle', function () {
+    return view('productions-edit');
+});
+
 Route::get('/cihaz-markalari', function () {
     return view('device-options/device-brands');
 });
