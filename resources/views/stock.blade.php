@@ -7,6 +7,7 @@
     </div>
     <div class="form-group">
         <div class="input-group">
+            @include('components._barcode-button')
             <input type="text" class="form-control" placeholder="Stok Ara" aria-label="Stok Ara">
             <div class="input-group-append">
                 <button class="btn btn-sm btn-primary" type="button">Ara</button>
@@ -27,11 +28,11 @@
             </thead>
             <tbody>
                 <tr>
-                    <th>Test Ürün</th>
-                    <th>Test123</th>
-                    <th>Raf Grup 1</th>
-                    <th>Raf Numarası 1</th>
-                    <th>552</th>
+                    <td>Test Ürün</td>
+                    <td>Test123</td>
+                    <td>Raf Grup 1</td>
+                    <td>Raf Numarası 1</td>
+                    <td>552</td>
                     <td>
                         <button onclick="changeCount('decrease')" class="btn btn-sm btn-light btn-icon-text">
                             <i class="mdi mdi-minus"></i>
@@ -44,6 +45,6 @@
             </tbody>
         </table>
     </div>
-<script src="/js/stock/changeCount.js"></script>
+    <script src="/js/stock/changeCount.js"></script>
 </div>
 @endsection
