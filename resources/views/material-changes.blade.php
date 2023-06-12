@@ -21,8 +21,8 @@
                 <tr>
                     <td>1</td>
                     <td>1056</td>
-                    <td>GroundTech</td>
-                    <td>Gr3</td>
+                    <td>Test</td>
+                    <td>A1</td>
                     <td>1.0</td>
                     <td>
                         <a href="/malzeme-degisimleri/duzenle" class="btn btn-sm btn-primary btn-icon-text">

@@ -21,8 +21,8 @@
                             <label for="marka">Marka</label>
                             <select class="form-control" id="marka" name="marka" disabled>
                                 <option>Seçim yapın</option>
-                                <option>Conrad</option>
-                                <option selected>GroundTech</option>
+                                <option>Deneme</option>
+                                <option selected>Test</option>
                             </select>
                         </div>
                     </div>
@@ -31,7 +31,7 @@
                             <label for="model">Model</label>
                             <select class="js-example-basic-single w-100" name="model" id="model" disabled>
                                 <option>Seçim yapın</option>
-                                <option selected>Gr3</option>
+                                <option selected>A1</option>
                             </select>
                         </div>
                     </div>

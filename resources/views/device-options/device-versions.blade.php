@@ -19,8 +19,8 @@
             <tbody>
                 <tr>
                     <td>1.0</td>
-                    <td>GroundTech</td>
-                    <td>Gr3</td>
+                    <td>Test</td>
+                    <td>A1</td>
                     <td>1</td>
                     <td>
                         <button onclick="modal('edit')" class="btn btn-sm btn-light btn-icon-text">

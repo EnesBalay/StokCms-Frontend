@@ -17,7 +17,7 @@
             <tbody>
                 <tr>
                     <td>Foo tech</td>
-                    <td>Fr3</td>
+                    <td>B1</td>
                     <td>1.23</td>
                     <td>
                         <a href="/cihaz-tanimlama/duzenle" class="btn btn-sm btn-primary btn-icon-text">

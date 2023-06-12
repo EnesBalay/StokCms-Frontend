@@ -9,7 +9,7 @@
     <li class="nav-item">
       <a class="nav-link" href="/urunler">
         <i class="mdi mdi-archive menu-icon"></i>
-        <span class="menu-title">Ürünler</span>
+        <span class="menu-title">Ürün Grupları</span>
       </a>
     </li>
     <li class="nav-item">
