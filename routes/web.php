@@ -117,6 +117,22 @@ Route::get('/kullanicilar', function () {
     return view('users');
 });
 
+Route::get('/kullanicilar/edit', function () {
+    return view('users-edit');
+});
+
+Route::get('/kullanicilar/add', function () {
+    return view('users-add');
+});
+
+Route::get('/roller', function () {
+    return view('roles');
+});
+
+Route::get('/roller/ekle', function () {
+    return view('roles-add');
+});
+
 Route::get('/ayarlar', function () {
     return view('settings');
 });
