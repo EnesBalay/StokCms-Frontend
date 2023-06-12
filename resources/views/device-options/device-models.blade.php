@@ -32,6 +32,7 @@
             </tbody>
         </table>
     </div>
-    <script src="/js/notification-settings/modal.js"></script>
+    <script src="/js/device-models/modal.js"></script>
+    <script src="/js/deletion.js"></script>
 </div>
 @endsection
