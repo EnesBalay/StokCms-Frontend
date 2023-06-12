@@ -2,10 +2,10 @@
 @section('content')
 <div class="content-wrapper">
     <div class="d-flex justify-content-between mb-2">
-        <h3 class="text-primary">Kullanıcılar</h3>
+            <h3 class="text-primary">Roller</h3>
         <div>
-            <a class="btn btn-sm btn-primary" href="/roller">Roller</a>
-            <a class="btn btn-sm btn-primary" href="/kullanicilar/add">Yeni Kullanıcı Ekle</a>
+            <a class="btn btn-sm btn-primary" href="/kullanicilar">Kullanıcılar</a>
+            <a class="btn btn-sm btn-primary" href="/roller/ekle">Yeni Rol Ekle</a>
         </div>
     </div>
     <div class="card">
@@ -13,19 +13,13 @@
             <thead>
                 <tr>
                     <th scope="col">#</th>
-                    <th scope="col">Kullanıcı</th>
-                    <th scope="col">E-Posta</th>
-                    <th scope="col">Telefon</th>
-                    <th scope="col">Rol</th>
+                    <th scope="col">Rol adı</th>
                     <th scope="col"></th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td>1</td>
-                    <td>John Smith</td>
-                    <td>john@smith.com</td>
-                    <td>123123213</td>
                     <td>Admin</td>
                     <td>
                         <a href="/kullanicilar/edit" class="btn btn-sm btn-light btn-icon-text">
@@ -41,3 +35,4 @@
     </div>
 </div>
 @endsection
+
