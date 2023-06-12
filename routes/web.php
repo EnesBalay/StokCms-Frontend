@@ -69,8 +69,20 @@ Route::get('/cihaz-tanimlama', function () {
     return view('device-registrations');
 });
 
+Route::get('/cihaz-tanimlama/duzenle', function () {
+    return view('device-registration-edit');
+});
+
 Route::get('/malzeme-degisimleri', function () {
     return view('material-changes');
+});
+
+Route::get('/malzeme-degisimleri/olustur', function () {
+    return view('material-changes-create');
+});
+
+Route::get('/malzeme-degisimleri/duzenle', function () {
+    return view('material-changes-edit');
 });
 
 Route::get('/uretim', function () {
@@ -117,7 +129,22 @@ Route::get('/kullanicilar', function () {
     return view('users');
 });
 
+Route::get('/kullanicilar/edit', function () {
+    return view('users-edit');
+});
+
+Route::get('/kullanicilar/add', function () {
+    return view('users-add');
+});
+
+Route::get('/roller', function () {
+    return view('roles');
+});
+
+Route::get('/roller/ekle', function () {
+    return view('roles-add');
+});
+
 Route::get('/ayarlar', function () {
     return view('settings');
 });
-

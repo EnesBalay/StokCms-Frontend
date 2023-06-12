@@ -20,7 +20,7 @@
                     <th>Fr3</th>
                     <th>1.23</th>
                     <td>
-                        <a href="/cihaz-tanimlama/1/edit" class="btn btn-sm btn-primary btn-icon-text">
+                        <a href="/cihaz-tanimlama/duzenle" class="btn btn-sm btn-primary btn-icon-text">
                             <i class="mdi mdi-open-in-new"></i>
                         </a>
                     </td>
