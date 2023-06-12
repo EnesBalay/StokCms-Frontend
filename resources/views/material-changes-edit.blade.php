@@ -21,8 +21,8 @@
                             <label for="marka">Marka</label>
                             <select class="form-control" id="marka" name="marka" disabled>
                                 <option>Seçim yapın</option>
-                                <option>Conrad</option>
-                                <option selected>GroundTech</option>
+                                <option>Deneme</option>
+                                <option selected>Test</option>
                             </select>
                         </div>
                     </div>

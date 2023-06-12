@@ -16,7 +16,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>Conrad</td>
+                    <td>Deneme</td>
                     <td>1</td>
                     <td>
                         <button onclick="modal('edit')" class="btn btn-sm btn-light btn-icon-text">
@@ -28,7 +28,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>GroundTech</td>
+                    <td>Test</td>
                     <td>2</td>
                     <td>
                         <button onclick="modal('edit')" class="btn btn-sm btn-light btn-icon-text">

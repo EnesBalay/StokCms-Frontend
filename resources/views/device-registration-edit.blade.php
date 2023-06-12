@@ -20,7 +20,7 @@
                         <div class="form-group">
                             <label for="marka">Marka</label>
                             <select class="form-control" id="marka" name="marka" disabled>
-                                <option>GroundTech</option>
+                                <option>Test</option>
                             </select>
                         </div>
                     </div>
@@ -28,7 +28,7 @@
                         <div class="form-group">
                             <label for="model">Model</label>
                             <select class="form-control" name="model" id="model" disabled>
-                                <option default>Gr3</option>
+                                <option default>A1</option>
                             </select>
                         </div>
                     </div>

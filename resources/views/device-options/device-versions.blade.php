@@ -19,7 +19,7 @@
             <tbody>
                 <tr>
                     <td>1.0</td>
-                    <td>GroundTech</td>
+                    <td>Test</td>
                     <td>Gr3</td>
                     <td>1</td>
                     <td>

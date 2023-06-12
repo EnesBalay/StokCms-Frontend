@@ -30,8 +30,8 @@
                 <tr>
                     <td>T1111111111</td>
                     <td>111111111111111</td>
-                    <td>GroundTech</td>
-                    <td>Gr3</td>
+                    <td>Test</td>
+                    <td>A1</td>
                     <td>1.0</td>
                     <td>14.11.2022</td>
                     <td>

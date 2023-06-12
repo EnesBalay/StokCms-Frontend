@@ -2,12 +2,12 @@
 @section('content')
 <div class="content-wrapper">
     <div class="d-flex justify-content-between mb-2">
-        <h3 class="text-primary">Ürünler</h3>
+        <h3 class="text-primary">Ürün Grupları</h3>
         <a class="btn btn-sm btn-primary" href="/urunler-ekle">Yeni ürün Ekle</a>
     </div>
     <div class="form-group">
         <div class="input-group">
-            <input type="text" class="form-control" placeholder="Ürün Ara" aria-label="Ürün Ara">
+            <input type="text" class="form-control" placeholder="Ürün Grupları Ara" aria-label="Ürün Grupları Ara">
             <div class="input-group-append">
                 <button class="btn btn-sm btn-primary" type="button">Ara</button>
             </div>
