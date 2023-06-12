@@ -24,9 +24,9 @@
             </thead>
             <tbody>
                 <tr>
-                    <th>Ürün Grubu 12</th>
-                    <th></th>
-                    <th>1</th>
+                    <td>Ürün Grubu 12</td>
+                    <td></td>
+                    <td>1</td>
                     <td>
                         <a type="button" href="/urunler-duzenle" class="btn btn-sm btn-primary btn-icon-text">
                             <i class="mdi mdi-pencil"></i>
