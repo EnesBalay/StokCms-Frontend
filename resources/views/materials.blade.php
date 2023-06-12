@@ -38,7 +38,7 @@
                         <a type="button" href="/malzemeler-duzenle" class="btn btn-sm btn-primary btn-icon-text">
                             <i class="mdi mdi-pencil"></i>
                         </a>
-                        <button type="button" onclick="confirm('Bu öğeyi silmek istiyor musunuz ?')" class="btn btn-sm btn-danger btn-icon-text">
+                        <button type="button" onclick="deletion()" class="btn btn-sm btn-danger btn-icon-text">
                             <i class="mdi mdi-delete-forever"></i>
                         </button>
                     </td>
@@ -46,5 +46,6 @@
             </tbody>
         </table>
     </div>
+    <script src="/js/deletion.js"></script>
 </div>
 @endsection
