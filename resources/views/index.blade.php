@@ -49,7 +49,7 @@
             <div class="card">
                 <div class="card-body">
                     <h4 class="card-title d-flex align-items-center" style="justify-content: space-between;">Kritik Stok
-                        <button type="button" class="btn btn-sm btn-primary">Tümünü Gör</button>
+                        <a href="/kritik-stok" class="btn btn-sm btn-primary">Tümünü Gör</a>
                     </h4>
                     <div class="table-responsive">
                         <table class="table">
@@ -78,7 +78,7 @@
             <div class="card">
                 <div class="card-body">
                     <h4 class="card-title d-flex align-items-center" style="justify-content: space-between;">Son Üretilenler
-                        <button type="button" class="btn btn-sm btn-primary">Tümünü Gör</button>
+                        <a href="/kritik-stok" class="btn btn-sm btn-primary">Tümünü Gör</a>
                     </h4>
                     <div class="table-responsive">
                         <table class="table">
@@ -106,65 +106,12 @@
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-3 grid-margin stretch-card">
-            <div class="card">
-                <div class="card-body text-center">
-                    <div class="icon">
-                        <i class="mdi mdi-buffer text-primary" style="font-size: 30px;"></i>
-                    </div>
-                    <div class="detail">
-                        <h2>2</h2>
-                        <p>Malzeme</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3 grid-margin stretch-card">
-            <div class="card">
-                <div class="card-body text-center">
-                    <div class="icon">
-                        <i class="mdi mdi-animation text-primary" style="font-size: 30px;"></i>
-                    </div>
-                    <div class="detail">
-                        <h2>1</h2>
-                        <p>Cihaz</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3 grid-margin stretch-card">
-            <div class="card">
-                <div class="card-body text-center">
-                    <div class="icon">
-                        <i class="mdi mdi-signal text-primary" style="font-size: 30px;"></i>
-                    </div>
-                    <div class="detail">
-                        <h2>1</h2>
-                        <p>Malzeme Değişimi</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3 grid-margin stretch-card">
-            <div class="card">
-                <div class="card-body text-center d-flex" style="align-content: space-between;flex-wrap: wrap;justify-content: center;">
-                    <div class="icon w-100">
-                        <i class="mdi mdi-currency-try text-primary" style="font-size: 30px;"></i>
-                    </div>
-                    <div class="detail">
-                        <h4>279.00 TL</h4>
-                        <p>Malzeme Değişim Maliyeti</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('components._dashboard-cards')
     <div class="row">
         <div class="col-lg-12 grid-margin stretch-card">
             <div class="card">
                 <div class="card-body">
-                    <h4 class="card-title d-flex align-items-center" style="justify-content: space-between;">Üretilen Cihaz  <button type="button" class="btn btn-sm btn-primary">Cihazlar</button></h4>
+                    <h4 class="card-title d-flex align-items-center" style="justify-content: space-between;">Üretilen Cihaz  <a href="/cihaz-tanimlama" class="btn btn-sm btn-primary">Cihazlar</a></h4>
                     <hr />
                     <div class="row">
                         <div class="col-lg-6">
