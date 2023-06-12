@@ -75,8 +75,8 @@
         var data = {
             labels: ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık"],
             datasets: [{
-                label: '# Ürün',
-                data: [10, 35, 3, 5, 2, 3,10, 35, 3, 5, 2, 3],
+                label: '# Cihaz',
+                data: [1,0,0,0,0,0,0,0,0,0,0,0],
                 backgroundColor: [
                     'rgba(54, 162, 235, 0.2)',
                     'rgba(54, 162, 235, 0.2)',
