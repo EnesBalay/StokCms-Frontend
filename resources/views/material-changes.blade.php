@@ -2,10 +2,9 @@
 @section('content')
 <div class="content-wrapper">
     <div class="d-flex justify-content-between mb-2">
-        <h3 class="text-primary">Malzeme Değişimleri</h3>
-        <a href="/malzeme-degisimleri/olustur" type="button" class="btn btn-secondary btn-icon-text">
-            + Yeni Ekle
-        </a>
+        <h3 class="text-primary">Malzeme Değişimleri
+        </h3>
+        <a class="btn btn-sm btn-primary" href="/uretim/olustur"> + Yeni Ekle</a>
     </div>
     <div class="card">
         <table class="table table-hover">
