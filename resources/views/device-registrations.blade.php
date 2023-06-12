@@ -16,9 +16,9 @@
             </thead>
             <tbody>
                 <tr>
-                    <th>Foo tech</th>
-                    <th>Fr3</th>
-                    <th>1.23</th>
+                    <td>Foo tech</td>
+                    <td>Fr3</td>
+                    <td>1.23</td>
                     <td>
                         <a href="/cihaz-tanimlama/duzenle" class="btn btn-sm btn-primary btn-icon-text">
                             <i class="mdi mdi-open-in-new"></i>

@@ -28,11 +28,11 @@
             </thead>
             <tbody>
                 <tr>
-                    <th>Test Ürün</th>
-                    <th>Test123</th>
-                    <th>30 Gün</th>
-                    <th>Raf Grup 1 / Raf Numarası 1</th>
-                    <th>552</th>
+                    <td>Test Ürün</td>
+                    <td>Test123</td>
+                    <td>30 Gün</td>
+                    <td>Raf Grup 1 / Raf Numarası 1</td>
+                    <td>552</td>
                     <td><span class="badge bg-primary text-light">Test Durum</span></td>
                     <td>
                         <a type="button" href="/malzemeler-duzenle" class="btn btn-sm btn-primary btn-icon-text">
