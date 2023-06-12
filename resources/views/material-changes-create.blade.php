@@ -1,0 +1,58 @@
+@extends('layouts.app')
+@section('content')
+<div class="content-wrapper">
+    <form action="" method="POST" class="needs-validation form-jq" novalidate="">
+        <div class="d-flex justify-content-between mb-2">
+            <h3 class="text-primary">Cihaz Tanımlama</h3>
+            <button type="button" class="btn btn-primary btn-icon-text">
+                <i class="ti-file btn-icon-prepend"></i>
+                Kaydet
+            </button>
+        </div>
+        <div class="card p-2 my-2">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-12 card-title">
+                        Cihaz Bilgileri
+                        <hr />
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="form-group">
+                            <label for="marka">Marka</label>
+                            <select class="form-control" id="marka" name="marka">
+                                <option>Seçim yapın</option>
+                                <option>Conrad</option>
+                                <option>GroundTech</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="form-group">
+                            <label for="model">Model</label>
+                            <select class="js-example-basic-single w-100" name="model" id="model">
+                                <option>Seçim yapın</option>
+                                <option>Gr3</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="form-group">
+                            <label for="versiyon">Versiyon</label>
+                            <select class="js-example-basic-single w-100" name="versiyon" id="versiyon">
+                                <option>Seçim yapın</option>
+                                <option>1.0</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <div class="form-group">
+                            <label for="service_no" class="input-has-value">Servis Numarası</label>
+                            <input type="number" class="form-control" name="service_no" id="service_no">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+@endsection
