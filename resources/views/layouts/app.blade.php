@@ -23,6 +23,9 @@
     <link rel="stylesheet" href="/css/vertical-layout-light/style.css">
     <!-- endinject -->
     <link rel="shortcut icon" href="/images/favicon.png" />
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.6/dist/sweetalert2.all.min.js"></script>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css'>
 </head>
 
 <body>
@@ -39,7 +42,7 @@
                 @yield('content')
                 @include('components._footer')
                 <!-- partial -->
-                
+
             </div>
         </div>
     </div>
@@ -52,8 +55,8 @@
     <script src="/vendors/chart./js/Chart.min.js"></script>
     <script src="/vendors/datatables.net/jquery.dataTables.js"></script>
     <script src="/vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
+    <script src="/vendors/chart.js/Chart.min.js"></script>
     <script src="/js/dataTables.select.min.js"></script>
-    
     <!-- End plugin js for this page -->
     <!-- inject:js -->
     <script src="/js/off-canvas.js"></script>
@@ -65,8 +68,49 @@
     <!-- Custom js for this page-->
     <script src="/js/select2.js"></script>
     <script src="/js/dashboard.js"></script>
+    <script src="/js/chart.js"></script>
     <script src="/js/Chart.roundedBarCharts.js"></script>
     <!-- End custom js for this page-->
+    <script>
+        var data = {
+            labels: ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık"],
+            datasets: [{
+                label: '# Ürün',
+                data: [10, 35, 3, 5, 2, 3,10, 35, 3, 5, 2, 3],
+                backgroundColor: [
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(54, 162, 235, 0.2)'
+                ],
+                borderColor: [
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(54, 162, 235, 1)'
+                ],
+                borderWidth: 1,
+                fill: false
+            }]
+        };
+        getChart(data)
+    </script>
 </body>
 
 </html>
